@@ -4,7 +4,6 @@ const schema = require("./schema/schema");
 
 const app = express();
 
-/**Middlewares are tiny functions meant to intercept or modify requests as they come through an express server.*/
 app.use(
   "/graphql",
   expressGraphQL({
